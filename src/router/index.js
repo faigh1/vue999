@@ -6,6 +6,7 @@ import Script from '../views/Script.vue';
 import Youtube from '../views/Youtube.vue';
 import Contact from '../views/Contact.vue';
 import Portfolio from '../views/Portfolio.vue';
+import MovieDetail from '../views/MovieDetail.vue';
 
 const routes = [
   {
@@ -42,6 +43,11 @@ const routes = [
     path: '/Portfolio',
     name: 'Portfolio',
     component: Portfolio,
+  },
+  {
+    path: '/MovieDetail',
+    name: 'MovieDetail',
+    component: MovieDetail,
   },
 ];
 
